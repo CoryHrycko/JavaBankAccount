@@ -1,1 +1,1 @@
-# JavaBankAccount
+This is a simple Java applet that handles all of OOP topics and generation of a bank account on the command line. Future progress is to integrate this into an api so that is can be displayed on a website with protected instances. 
