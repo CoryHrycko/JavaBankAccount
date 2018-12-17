@@ -5,7 +5,7 @@ public class BankAccount {
     private int accounBalance;
 
     public BankAccount(int accountNumber, int accounBalance) {
-        this.accountNumber=accountNumber;
+        this.accountNumber=accountNumber2;
         this.accounBalance=accounBalance;
         System.out.println("You created account "+
                 this.accountNumber);
