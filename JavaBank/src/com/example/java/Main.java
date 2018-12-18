@@ -16,5 +16,8 @@ public class Main {
         myBankAccount.deposit(100);
         myBankAccount.withdraw(200);
 
-    }
+    }//TODO NEED A CUSTOMER VALIDATION RUN THROUGH CLASS
+    //TODO NEED TO SAVE LOGIN NAME
+    //TODO NEED TO SAVE LOGIN PASSWORD
+    //TODO 
 }

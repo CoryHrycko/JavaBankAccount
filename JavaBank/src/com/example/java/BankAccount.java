@@ -1,10 +1,11 @@
 package com.example.java;
 
 public class BankAccount {
-    private int accountNumber;
-    private int accounBalance;
+    private int accountNumber; // TODO want to use this as id key.
+    private double accounBalance;// TODO Want a class that has the money containers
+    private String customerName;//TODO Want a customer info section
 
-    public BankAccount(int accountNumber, int accounBalance) {
+    public BankAccount(int accountNumber, double accounBalance) {
         this.accountNumber=accountNumber2;
         this.accounBalance=accounBalance;
         System.out.println("You created account "+
