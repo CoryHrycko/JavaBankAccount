@@ -1,12 +1,16 @@
 package com.example.java;
 
 public class BankAccount {
-    private int accountNumber; // TODO want to use this as id key.
+    private double accountNumber; // TODO want to use this as id key.
     private double accounBalance;// TODO Want a class that has the money containers
     private String customerName;//TODO Want a customer info section
 
-    public BankAccount(int accountNumber, double accounBalance) {
-        this.accountNumber=accountNumber2;
+    public BankAccount() {
+        this(000_000_0000,00.00,Please_log-in )
+    }
+    public BankAccount(double accountNumber, double accounBalance, String customerName) {
+
+        this.accountNumber=accountNumber2 ;
         this.accounBalance=accounBalance;
         System.out.println("You created account "+
                 this.accountNumber);
@@ -32,7 +36,7 @@ public class BankAccount {
             System.out.println("$"+removeMoney+" has been withdrawn from account "+
                     this.accountNumber+".");
         }
-    }
+
 
 
 

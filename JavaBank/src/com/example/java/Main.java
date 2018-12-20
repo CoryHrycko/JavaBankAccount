@@ -19,5 +19,9 @@ public class Main {
     }//TODO NEED A CUSTOMER VALIDATION RUN THROUGH CLASS
     //TODO NEED TO SAVE LOGIN NAME
     //TODO NEED TO SAVE LOGIN PASSWORD
-    //TODO 
+    //TODO
+
+    VipPerson person1= new VipPerson();
+
+
 }
